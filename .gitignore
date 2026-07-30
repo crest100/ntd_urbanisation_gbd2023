@@ -1,0 +1,32 @@
+# Output files
+output/
+submission/figures/
+submission/*.docx
+submission/*.pdf
+
+# Data files (download from GBD / World Bank directly)
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.RData
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# R files
+.Rhistory
+.RData
+.Ruserdata
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp scripts
+check_*.R
+debug_*.R
+find_cite_spots.py
+tmp_*.txt
